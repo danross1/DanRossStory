@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import './App.css';
 
 class App extends Component {
@@ -10,7 +11,6 @@ class App extends Component {
         </header>
         <br/>
         <p>Gallery goes here</p>
-        <img src="images/goat_small.jpg" />
       </div>
     );
   }
