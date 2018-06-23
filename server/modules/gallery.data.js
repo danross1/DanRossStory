@@ -1,6 +1,6 @@
 const galleryItems = [
     { id: 1, path: 'images/americasmostwanted.jpg', description: 'Holy fuck I look like a serial killer', likes: 0 },
-    {id: 2, path: 'images/aoa.jpg', description: 'Lurking in the back at the AOAs', likes: 0},
+    {id: 2, path: 'images/aoa.jpg', description: 'AOAs & Heartbreak', likes: 0},
     {id: 3, path: 'images/beautiful.jpg', description: 'Me on my throne', likes: 0},
     {id: 4, path: 'images/crew.jpg', description: 'A mixed group of Muggle and Wizard porters ready to cause a ruckus', likes: 0},
     {id: 5, path: 'images/crushed.jpg', description: 'Volunteering: Not even once.', likes: 0},
@@ -10,7 +10,7 @@ const galleryItems = [
     {id: 9, path: 'images/heart.jpg', description: 'E> Be still, my beating heart <3', likes: 0},
     {id: 10, path: 'images/heatray.jpg', description: 'What happens if I get too near children', likes: 0}, 
     {id: 11, path: 'images/ilikeboyz.jpg', description: 'Hey cheerleaders, I got the new cheer.  So fab!', likes: 0},
-    {id: 12, path: 'images/lap.jpg', description: 'I\'m basically a lapdog', likes: 0},
+    {id: 12, path: 'images/lap.jpeg', description: 'I\'m basically a lapdog', likes: 0},
     {id: 13, path: 'images/minion.jpg', description: 'I walked around Chicago like this and it was not a good idea', likes: 0},
     {id: 14, path: 'images/ohbb.jpg', description: 'Stare into my eyes...', likes: 0},
     {id: 15, path: 'images/phonehome.jpg', description: 'Best smelling place in the Universe', likes: 0},
