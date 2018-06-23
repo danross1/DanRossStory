@@ -12,10 +12,15 @@ class GalleryItem extends Component {
             })
     }
 
+    handleClick = () => {
+        console.log('in handleclick to show:', this.props.item.description);
+        
+    }
+
     render() {
         return (
             <div>
-                <img src={this.props.item.path} height='300' width='300' alt={this.props.item.description}/>
+                <img onClick={this.handleClick} src={this.props.item.path} height='300' width='300' alt={this.props.item.description}/>
                 <br/>
                 <button onClick={this.likePhoto}>I like this.</button>
                 <br/><br/>

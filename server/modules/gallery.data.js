@@ -5,7 +5,7 @@ const galleryItems = [
     {id: 4, path: 'images/crew.jpg', description: 'A mixed group of Muggle and Wizard porters ready to cause a ruckus', likes: 0},
     {id: 5, path: 'images/crushed.jpg', description: 'Volunteering: Not even once.', likes: 0},
     {id: 6, path: 'images/drunk.jpg', description: 'That time I got drunk and drooled on myself in front of strangers', likes: 0},
-    {id: 7, path: 'images/duckface.jpg', description: 'The sexiest face known to man', likes: 0},
+    {id: 7, path: 'images/duckface.jpg', description: 'The most attractive facial expression on Earth or beyond', likes: 0},
     {id: 8, path: 'images/guesswho.jpg', description: 'The problem with playing board games with rudos is that they always cheat :(', likes: 0},
     {id: 9, path: 'images/heart.jpg', description: 'E> Be still, my beating heart <3', likes: 0},
     {id: 10, path: 'images/heatray.jpg', description: 'What happens if I get too near children', likes: 0}, 
@@ -24,7 +24,18 @@ const galleryItems = [
     {id: 23, path: 'images/wedding2.jpg', description: 'Okay fine one actual kinda serious picture', likes: 0},
     {id: 24, path: 'images/wedding3.jpg', description: 'b4 da drinks', likes: 0},
     {id: 25, path: 'images/xmas.jpg', description: 'I only celebrate Christmas if it means I can wear makeup', likes: 0},
-    {id: 26, path: 'images/xmas2.jpg', description: 'Trimming the tree?  Did I use that right?', likes: 0}
+    {id: 26, path: 'images/xmas2.jpg', description: 'Trimming the tree?  Did I use that right?', likes: 0},
+    {id: 27, path: 'images/ghost.jpg', description: 'A g-g-g-ghost!', likes: 0},
+    {id: 28, path: 'images/wut.jpg', description: 'Okay, this one defies description', likes: 0},
+    {id: 29, path: 'images/antilovepoem.jpg', description: 'Pretenious hipster poet', likes: 0},
+    {id: 30, path:'images/purple.jpg', description: 'Fuzzy!', likes: 0},
+    {id: 31, path: 'images/pool.jpg', description: 'Just an ordinary night, sweeping the pool table', likes: 0},
+    {id: 32, path: 'images/fro.jpg', description: 'Grew my hair out a bit', likes: 0},
+    {id: 33, path: 'images/candy.jpg', description: 'Candy!', likes: 0},
+    {id: 34, path: 'images/glam.jpg', description: 'Glam af', likes: 0},
+    {id: 35, path: 'images/angryglam.jpg', description: 'Grrrrrrrrr', likes: 0},
+    {id: 36, path: 'images/glam2.jpg', description: 'So beautiful <3', likes: 0}
+
 
 ];
 
