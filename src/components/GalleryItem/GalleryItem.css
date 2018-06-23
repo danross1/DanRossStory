@@ -6,9 +6,12 @@
 .description {
     height: 400px;
     width: 400px;
-    padding: 20px;
+    display: flex;
+    padding: auto;
     margin: auto;
     border-style: solid;
     box-sizing: border-box;
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
 }
