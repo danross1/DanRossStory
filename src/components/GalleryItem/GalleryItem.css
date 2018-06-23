@@ -1,0 +1,14 @@
+/* .description {
+    height: 300px;
+    width: 300px;
+} */
+
+.description {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-style: solid;
+    box-sizing: border-box;
+    text-align: center;
+}
