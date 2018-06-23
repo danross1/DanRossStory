@@ -12,7 +12,7 @@ class GalleryList extends Component {
     render() {
         return (
             <div className="item">
-                {this.props.galleryList.map((item, i) => <GalleryItem item={item} key={item.id} getGallery={this.props.getGallery} galleryList={this.props.galleryList}/>)}
+                {this.props.galleryList.map(item => <GalleryItem item={item} key={item.id} getGallery={this.props.getGallery} />)}
             </div>
         )
     }
