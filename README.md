@@ -25,3 +25,11 @@ npm run client
 ```
 
 If this does not automatically open `localhost:3000` in your preferred browser, do so and enjoy my dumb face!
+
+### Usage
+
+When first using this image gallery, you should calibrate your system by looking at your own hands, then turning them over and looking at the backs of them with a sense of wonder.
+
+Now, go my child, look at pictures!  Click on pictures to see insightful commentary!  Like things!  Like things again!  Marvel at the number of likes you have accrued!
+
+And Jesus wept, for there were no more worlds to conquer.
