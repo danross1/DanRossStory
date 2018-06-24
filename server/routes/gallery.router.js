@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var galleryItems = require('../modules/gallery.data');
 const pool = require('../pool');
 
 // DO NOT MODIFY THIS FILE FOR BASE MODE
@@ -11,11 +10,6 @@ router.put('/like/:id/:likes', function (req, res) {
     const itemLikes = parseInt(req.params.likes) + 1;
     console.log('itemLikes:', itemLikes);
     
-    // for(const galleryItem of galleryItems) {
-    //     if(galleryItem.id == galleryId) {
-    //         galleryItem.likes += 1;
-    //     }
-    // }
     let queryText = 'UPDATE gallery SET likes=$1 WHERE id=$2';
     pool.query(queryText, [itemLikes, galleryId])
         .then(results => {
@@ -29,7 +23,6 @@ router.put('/like/:id/:likes', function (req, res) {
 
 // GET Route
 router.get('/', function (req, res) {
-    // res.send(galleryItems);
     let queryText = 'SELECT * FROM gallery ORDER BY id';
     pool.query(queryText)
         .then(results => {

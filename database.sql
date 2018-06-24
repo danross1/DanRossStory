@@ -22,7 +22,7 @@ VALUES ('images/americasmostwanted.jpg', 'Holy fuck I look like a serial killer'
 ('images/ohbb.jpg', 'Stare into my eyes...'),
 ('images/phonehome.jpg', 'Best smelling place in the Universe'),
 ('images/rvivr.jpg', 'I''m in this one I swear!'),
-('images/slide.jpg', 'Wheeeeeeeeee'),
+('images/slide.jpg', 'Wheeeeeeeeee!'),
 ('images/slugbuds.jpg', 'They see me sluggin'', they hatin''...'),
 ('images/trashhouse.jpg', 'Ew who lives like this?  Oh wait, right, me.'),
 ('images/twentyone.jpg', 'Birthday diva'),
