@@ -11,11 +11,15 @@ class GalleryItem extends Component {
     }
     likePhoto = () => {
         console.log('id:', this.props.item.id);
+        console.log('likes:', this.props.item.likes);
+
         
-        axios.put(`/gallery/like/${this.props.item.id}`)
+        axios.put(`/gallery/like/${this.props.item.id}/${this.props.item.likes}`)
             .then(response => {
                 console.log('back from PUT');
                 this.props.getGallery();
+            }).catch(err => {
+                console.log('err:', err);
             })
     }
 

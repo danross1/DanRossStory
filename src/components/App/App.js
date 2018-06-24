@@ -21,7 +21,7 @@ class App extends Component {
         console.log('response:', response.data);
         console.log('galleryList:', this.state.galleryList);
         this.setState({ galleryList: 
-          [...response.data]})
+          [...response.data.rows]})
         console.log('galleryList:', this.state.galleryList);
       }).catch(err => {
         console.log('err:', err);
