@@ -1,5 +1,4 @@
-# I Refuse To Take a Serious Picture
-# The Dan Ross Story
+# I Refuse To Take a Serious Picture (The Dan Ross Story)
 
 This is an image gallery I made using React, Node, SQL, and Express.  It is also a testament to the fact that my face refuses to act in a normal manner when a camera is placed in front of it.
 
