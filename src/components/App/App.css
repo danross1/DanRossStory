@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #50d07d;
 }
 
 .App-header {
@@ -11,6 +12,7 @@
 
 .App-title {
   font-size: 1.5em;
+  font-family: Aldrich
 }
 
 .App-intro {
