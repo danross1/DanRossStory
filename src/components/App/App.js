@@ -31,7 +31,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of my life</h1>
+          <h1 className="App-title">I Refuse To Take a Serious Picture</h1>
+          <h3>The Dan Ross Story</h3>
         </header>
         <br/>
         <GalleryList galleryList={this.state.galleryList}
