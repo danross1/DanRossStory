@@ -6,7 +6,7 @@ CREATE TABLE gallery (
 );
 
 INSERT INTO gallery (path, description)
-VALUES ('images/americasmostwanted.jpg', 'Holy fuck I look like a serial killer'),
+VALUES ('images/americasmostwanted.jpg', 'I swear I''m not a serial killer, I''m just tired'),
 ('images/aoa.jpg', 'AOAs and Heartbreaks'),
 ('images/beautiful.jpg', 'Me on my throne'),
 ('images/crew.jpg', 'Some wizards, some Muggles, all class.'),
